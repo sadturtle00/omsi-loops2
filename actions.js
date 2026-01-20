@@ -19,7 +19,7 @@ function Actions() {
         }
         addExpFromAction(curAction);
 		//here might be test area
-        curAction.ticks+=2;
+        curAction.ticks++;
         curAction.manaUsed++;
         curAction.timeSpent += 1 / baseManaPerSecond / getActualGameSpeed();
         // only for multi-part progress bars

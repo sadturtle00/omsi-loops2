@@ -18,7 +18,6 @@ function Actions() {
             return;
         }
         addExpFromAction(curAction);
-		//here might be test area
         curAction.ticks++;
         curAction.manaUsed++;
         curAction.timeSpent += 1 / baseManaPerSecond / getActualGameSpeed();
